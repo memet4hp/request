@@ -1,0 +1,250 @@
+/* :root {
+  --bleeding: 0.5cm;
+  --margin: 1cm;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10 auto;
+  padding: 0;
+  background: rgb(204, 204, 204);
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  display: inline-block;
+  position: relative;
+  height: 297mm;
+  width: 210mm;
+  font-size: 12pt;
+  margin: 2em auto;
+  padding: calc(var(--bleeding) + var(--margin));
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  background: white;
+}
+
+@media screen {
+  .page::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: calc(100% - var(--bleeding) * 2);
+    height: calc(100% - var(--bleeding) * 2);
+    margin: var(--bleeding);
+    outline: thin dashed black;
+    pointer-events: none;
+    z-index: 9999;
+  }
+}
+
+@media print {
+  .page {
+    margin: 0;
+    overflow: hidden;
+  }
+} */
+
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* 
+body {
+  font-family: arial;
+  padding-top: 1px;
+  padding-bottom: 20px;
+ 
+} */
+
+footer {
+  font-family: arial;
+  margin-top: 20px;
+}
+
+.gallery {
+  /* background: linear-gradient(180deg, var(--yellow) 40%, var(--lightblue) 80%); */
+  width: calc(100% - 100px);
+  padding-bottom: 20px;
+  text-align: justify;
+  padding: 5px 5px;
+  border: 1px solid rgb(138, 138, 138);
+  margin: 0px;
+}
+
+.images {
+  width: 100%;
+  height: 200px;
+  padding: 0px;
+  transition: 0.7s all ease-in-out;
+}
+
+@media screen and (max-width : 800px) {
+
+  header {
+      background: black;
+      color: white;
+      transition: 1s all ease-in-out;
+  }
+
+  header:hover {
+      transform: scale(0.80);
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 3rem;
+  }
+
+  .gallery {
+      width: 100%;
+      padding: 0;
+      background: white;
+  }
+
+  .images {
+
+      padding: 0;
+      width: 100%;
+  }
+
+  .images:hover {
+      border: 3px solid #000;
+  }
+}
+
+.tbl {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  width: 100%;
+}
+
+
+.tbl2 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 0px solid #000;
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  /* text-align: left; */
+}
+
+hr.solid {
+  border: 1px solid #000;
+}
+
+.border {
+  border: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.borderisi {
+  border: 1px dashed #000;
+  padding-bottom: 10px;
+   
+}
+
+.tengah {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 5px;
+  font-size: 20px;
+}
+
+.judul {
+  width: 40%;
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 10px;
+  vertical-align: top;
+}
+
+.kolomdua {
+  width: 47%;
+  padding: 10px;
+}
+
+.judulpanjang {
+  width: 100%;
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 10px;
+  vertical-align: top;
+}
+
+.judul2 {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+
+.titikdua {
+  width: 3%;
+  padding-left: 1px;
+  padding-top: 10px;
+}
+
+.bold {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.judulutama {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.isipdf {
+  padding-top: 10px;
+  margin: 10px;
+  padding-left: 0px;
+  text-align: justify;
+}
+
+
+.isipdfpanjang {
+  padding: 15px;
+ 
+  text-align: justify;
+}
+
+.form-row2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+table,
+img,
+.form-row2 {
+  break-inside: avoid;
+}

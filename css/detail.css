@@ -1,0 +1,292 @@
+ .select2 {
+   width: 100% !important;
+   height: 40px;
+   vertical-align: middle;
+ }
+
+ .card-header-collapse {
+   background-color: #0d72a1;
+   border-bottom: 1px solid rgba(0, 0, 0, .125);
+   padding: 0.75rem 1.25rem;
+   color: #fff;
+   position: relative;
+   border-top-left-radius: 0.25rem;
+   border-top-right-radius: 0.25rem;
+ }
+
+ .form-row {
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-top: 15px;
+ }
+
+ .form-row2 {
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-top: 5px;
+ }
+
+ .form-rowgallery {
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   /* margin-right: -3px;
+   margin-left: 10px; */
+   margin-top: 5px;
+ }
+
+ .garis {
+  border-bottom: 2px solid #b1a9a9;
+  padding: 5px;
+  margin-bottom: 10px;
+ }
+
+ .garispanjangrequest {
+   border-bottom: 2px solid #b1a9a9;
+   padding-bottom: 15px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-bottom: 5px;
+ }
+
+ .garisborderrequest {
+   border: 2px solid #b1a9a9;
+   padding: 15px;
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+
+ .garisborder {
+   border: 2px solid #b1a9a9;
+   padding: 15px;
+ }
+
+ .garisnomargin {
+   border-bottom: 2px solid #b1a9a9;
+   padding-bottom: 15px;
+
+   margin-bottom: 5px;
+ }
+
+ .gambar-atas {
+   padding-bottom: 5px;
+   margin-left: -15px;
+   margin-right: -15px;
+   border-radius: 5px;
+   font-weight: bold;
+   text-align: center;
+   font-size: 25px;
+   width: 100%;
+   height: auto;
+ }
+
+ .gambar {
+   width: 100%;
+   height: auto;
+ }
+
+ .gambardiagnostic {
+   max-width: 100%;
+   width: 250;
+   height: 100%;
+   border: 2px;
+   border-style: solid;
+ }
+
+ .gallery {
+   /* background: linear-gradient(180deg, var(--yellow) 40%, var(--lightblue) 80%); */
+   width: calc(100% - 100px);
+   padding-bottom: 20px;
+   text-align: justify;
+   padding: 5px 5px;
+   /* border: 1px solid rgb(138, 138, 138); */
+   margin: 0px;
+ }
+
+ .images {
+   width: 100%;
+   height: auto;
+   padding: 0px;
+   transition: 0.7s all ease-in-out;
+ }
+
+ @media screen and (max-width : 800px) {
+
+   header {
+     background: black;
+     color: white;
+     transition: 1s all ease-in-out;
+   }
+
+   header:hover {
+     transform: scale(0.80);
+   }
+
+   h1 {
+     text-align: center;
+     font-size: 3rem;
+   }
+
+   .gallery {
+     width: 100%;
+     padding: 0;
+     background: white;
+   }
+
+   .images {
+
+     padding: 0;
+     width: 100%;
+   }
+
+   .images:hover {
+     border: 3px solid #000;
+   }
+ }
+
+ .select2-container .select2-selection--single {
+   box-sizing: border-box;
+   cursor: pointer;
+   display: block;
+   height: 41px;
+   user-select: none;
+   -webkit-user-select: none;
+ }
+
+ .label {
+   font-size: 15px;
+ }
+
+
+
+ .deskripsi {
+   font-size: 15px;
+   text-align: justify;
+ }
+
+ .garisbawah {
+   font-weight: bold;
+   text-decoration: underline;
+ }
+
+
+ .bold {
+   font-weight: bold;
+ }
+
+ .underline {
+   text-decoration: underline;
+ }
+
+ /* h7 {
+   font-weight: bold;
+ } */
+
+ .form-group {
+   margin-bottom: 0.2rem;
+ }
+
+ .teks-action {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ .card-header {
+   background-color: #0098de;
+   border-bottom: 1px solid rgba(0, 0, 0, .125);
+   padding: 0.50rem 1.25rem;
+   position: relative;
+   color: white;
+   border-top-left-radius: 0.25rem;
+   border-top-right-radius: 0.25rem;
+ }
+
+ .btn-submit {
+   border-radius: 10px;
+   margin-top: 10px;
+   padding: 4px;
+   background-color: #0D72A1;
+   color: #fff;
+   border-color: #0D72A1;
+ }
+
+ .card-collapse {
+   box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+   margin-bottom: 0rem;
+   position: relative;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: #fff;
+   background-clip: border-box;
+   border: 0 solid rgba(0, 0, 0, .125);
+   border-radius: 0.25rem;
+ }
+
+ .jdl {
+   font-weight: bold;
+   color: #fff;
+   padding: 0.375rem 0.75rem;
+   font-size: 20px;
+ }
+
+ .judul {
+   padding: 1px;
+   font-weight: bold;
+   text-align: center;
+   font-size: 22px;
+ }
+
+ .judul-aksi {
+   padding: 3px 12px;
+   font-weight: bold;
+   text-align: left;
+   font-size: 20px;
+ }
+
+ .accordion {
+   margin-left: 5px;
+ }
+
+ a:hover {
+   color: black;
+ }
+
+ .card-collapse {
+   background-color: #f5f5f5;
+ }
+
+ .card-header-detail {
+   background-color: #084b74;
+   /* background-color: #c65f5f; */
+   border-bottom: 1px solid rgba(0, 0, 0, .125);
+   padding-top: 8px;
+   padding-bottom: 4px;
+   position: relative;
+   border-top-left-radius: 0.25rem;
+   border-top-right-radius: 0.25rem;
+   color: white;
+   text-align: center;
+ }
+
+ [data-toggle="collapse"] .fa:before {
+   content: "\f139";
+ }
+
+ [data-toggle="collapse"].collapsed .fa:before {
+   content: "\f13a";
+ }
+
+ 
