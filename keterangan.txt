@@ -1,0 +1,4 @@
+Ringan : 2 hari
+Sedang : 4 Hari
+Berat : 6 Hari
+External : Manual (tanggal dan jumlah hari akan diisi manual)
