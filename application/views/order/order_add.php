@@ -127,7 +127,7 @@ echo form_open_multipart('order/add', 'role="form" class="form-horizontal"');
                                     <h7>Nomor Order *</h7>
                                 </div>
                                 <i class="ket">No.Urut database/Katgori/bulan/tahun </i>
-                                <input type="text" disabled class="form-control" name="tanggal_mulai_dikerjakan"
+                                <input type="text" disabled class="form-control" name="nomor_order"
                                     required />
                             </div>
 
