@@ -124,10 +124,19 @@ echo form_open_multipart('order/add', 'role="form" class="form-horizontal"');
 
                             <div class="form-group col-sm-12">
                                 <div id="content1">
+                                    <h7>Nomor Order *</h7>
+                                </div>
+                                <i class="ket">No.Urut database/Katgori/bulan/tahun </i>
+                                <input type="text" disabled class="form-control" name="tanggal_mulai_dikerjakan"
+                                    required />
+                            </div>
+
+                            <div class="form-group col-sm-12">
+                                <div id="content1">
                                     <h7>Tanggal Mulai Dikerjakan *</h7>
                                 </div>
                                 <i class="ket">Tanggal Pemeriksaan + Estimasi Waktu Pengadaan Material </i>
-                                <input type="date" disabled class="form-control" name="tanggal_pemeriksaan"
+                                <input type="date" disabled class="form-control" name="tanggal_mulai_dikerjakan"
                                     id="tangal_mulai_dikerjakan" required />
                             </div>
 
@@ -145,7 +154,7 @@ echo form_open_multipart('order/add', 'role="form" class="form-horizontal"');
                                     <h7>Tanggal Estimasi Selesai *</h7>
                                 </div>
                                 <i class="ket">Estimasi Waktu (hari) pengerjaan + Tanggal Mulai Dikerjakan </i>
-                                <input type="date" class="form-control" name="tanggal_pemeriksaan" disabled id="estimasi_selesai" required />
+                                <input type="date" class="form-control" name="tanggal_estimasi_selesai_pengerjaan" disabled id="estimasi_selesai" required />
                             </div>
                         </div>
 
